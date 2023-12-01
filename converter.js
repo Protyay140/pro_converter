@@ -19,8 +19,6 @@ const func = (have, want, amount) => {
     })
     .catch(err => console.error(err));
 }
-
-
 submit.addEventListener('click', (e) => {
   e.preventDefault();
   func(have.value,want.value,amount.value);
